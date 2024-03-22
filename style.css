@@ -2,7 +2,7 @@
 
 :root {
   --cor-de-fundo: #141313;
-  --verde: #57ff97;
+  --verde: #921692;
   --branco: #ffffff;
   --botao-ativo: #3A375E;
   --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -70,6 +70,11 @@ body {
     background-color: var(--texto-fundo);
 }
 
+.contador{
+  font-size: 20px;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .botoes {
       display: flex;
@@ -81,9 +86,4 @@ body {
       border-radius: 0 40px 0 0;
   }
 }
-.contador{
-  font-size: 20px;
-  text-align: center;
-}
-
 
